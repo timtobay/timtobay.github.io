@@ -1,0 +1,430 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    background: #212121;
+}
+header nav{
+    padding: 10px 70px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 11px 70px; */
+    margin: 0;
+    list-style: none; 
+    
+}
+.menu .menu_link {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 300;
+}
+.menu .menu_item {
+    border-right: 1px dotted black;
+    padding-right: 28px;
+}
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background: rgba(0,0,0, .6);
+    margin-top: 50px;
+}
+.subheader .subheader_logo {
+    display: block;
+    min-width: 100%; /* от колонки */
+    margin-top: 17px;
+}
+.subheader .subheader_official {
+    margin-top: 5px;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.subheader .subheader_call {
+    margin-top: 19px;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: right;
+}
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: right;
+    line-height: 12px;
+}
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;  
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo {
+    padding: 150px 0 135px 0;
+    min-height: 800px;
+    background: url('../img/main_bg.jpg') center center/cover no-repeat;
+}
+.promo .promo_header {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 0;
+}
+.promo .promo_subheader {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+}
+.promo .promo_descr {
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.promo .promo_btn {
+    display: block;
+    margin: 115px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.advan{
+    margin: 33px 18px 43px 64px; 
+}
+.label {
+    display: block;
+    width: 113px;
+    height: 24px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 20px auto;
+}
+.title {
+    display: block;
+    font-weight: 700;
+    font-size: 38px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 33px auto;
+}
+.payment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.payment .payment_circle {
+    display: flex;
+    margin-left: 33px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payment .payment_descr {
+    margin-left: 25px;   
+    left: 25px;
+    width: 371px;
+    height: 150px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.payment .payment_descr .payment_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.bonus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bonus .bonus_circle {
+    display: flex;
+    margin-left: 33px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bonus .bonus_descr {
+    margin-left: 25px;   
+    left: 25px;
+    width: 341px;
+    height: 150px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.bonus .bonus_descr .bonus_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.income {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.income .income_circle {
+    display: flex;
+    margin-left: 33px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.income .income_descr {
+    margin-left: 25px;   
+    left: 25px;
+    width: 341px;
+    height: 150px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.income .income_descr .income_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.worktime {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.worktime .worktime_circle {
+    display: flex;
+    margin-left: 33px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.worktime .worktime_descr {
+    margin-left: 25px;   
+    left: 25px;
+    width: 341px;
+    height: 150px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.worktime .worktime_descr .worktime_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.comfortable {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.comfortable .comfortable_circle {
+    display: flex;
+    margin-left: 33px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comfortable .comfortable_descr {
+    margin-left: 25px;   
+    left: 25px;
+    width: 341px;
+    height: 150px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.comfortable .comfortable_descr .comfortable_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.order {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.order .order_circle {
+    display: flex;
+    margin-left: 33px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order .order_descr {
+    margin-left: 25px;   
+    left: 25px;
+    width: 341px;
+    height: 150px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.order .order_descr .order_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.support {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.support .support_circle {
+    display: flex;
+    margin-left: 33px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.support .support_descr {
+    margin-top: 40px;
+    margin-left: 25px;   
+    left: 25px;
+    width: 341px;
+    height: 150px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.support .support_descr .support_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.sticker {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.sticker .sticker_circle {
+    display: flex;
+    margin-left: 33px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.sticker .sticker_descr {
+    margin-top: 40px;
+    margin-left: 25px;   
+    left: 25px;
+    width: 341px;
+    height: 150px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.sticker .sticker_descr .sticker_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+
+
+
